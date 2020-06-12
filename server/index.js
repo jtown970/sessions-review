@@ -3,6 +3,7 @@ const express = require('express')
 const app = express()
 const massive = require('massive')
 const { SERVER_PORT, CONNECTION_STRING } = process.env
+const setup = require('./controllers/setup')
 const authCtrl = require('./controllers/authController')
 
 app.use(express.json())
@@ -20,7 +21,7 @@ app.post('/auth/register', authCtrl.register)
 app.delete('/auth/logout', authCtrl.logout)
 
 //! Seeding endpoint.  Keep at bottom.
-app.post('/api', authCtrl.seed)
+app.post('/api', setup.seed)
 
 massive({
   connectionString: CONNECTION_STRING,

@@ -1,0 +1,702 @@
+[
+  {
+    "make": "Scion",
+    "model": "xB",
+    "miles": 36456,
+    "color": "Khaki",
+    "year": 2006
+  },
+  {
+    "make": "Infiniti",
+    "model": "G",
+    "miles": 89898,
+    "color": "Green",
+    "year": 1996
+  },
+  {
+    "make": "Land Rover",
+    "model": "Range Rover Sport",
+    "miles": 38759,
+    "color": "Pink",
+    "year": 2008
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "miles": 21579,
+    "color": "Aquamarine",
+    "year": 1956
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Galant",
+    "miles": 90792,
+    "color": "Mauv",
+    "year": 1986
+  },
+  {
+    "make": "Suzuki",
+    "model": "XL-7",
+    "miles": 59592,
+    "color": "Pink",
+    "year": 2008
+  },
+  {
+    "make": "Buick",
+    "model": "Skyhawk",
+    "miles": 50635,
+    "color": "Green",
+    "year": 1986
+  },
+  {
+    "make": "Saab",
+    "model": "9000",
+    "miles": 43297,
+    "color": "Blue",
+    "year": 1994
+  },
+  {
+    "make": "Ford",
+    "model": "Ranger",
+    "miles": 40559,
+    "color": "Green",
+    "year": 1988
+  },
+  {
+    "make": "Toyota",
+    "model": "T100 Xtra",
+    "miles": 42046,
+    "color": "Aquamarine",
+    "year": 1995
+  },
+  {
+    "make": "Suzuki",
+    "model": "Aerio",
+    "miles": 49913,
+    "color": "Aquamarine",
+    "year": 2004
+  },
+  {
+    "make": "BMW",
+    "model": "7 Series",
+    "miles": 85258,
+    "color": "Violet",
+    "year": 2008
+  },
+  {
+    "make": "Kia",
+    "model": "Borrego",
+    "miles": 75053,
+    "color": "Khaki",
+    "year": 2009
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban 1500",
+    "miles": 24609,
+    "color": "Violet",
+    "year": 1994
+  },
+  {
+    "make": "Honda",
+    "model": "Insight",
+    "miles": 62544,
+    "color": "Indigo",
+    "year": 2001
+  },
+  {
+    "make": "Nissan",
+    "model": "Altima",
+    "miles": 66523,
+    "color": "Violet",
+    "year": 2005
+  },
+  {
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "miles": 52365,
+    "color": "Goldenrod",
+    "year": 1998
+  },
+  {
+    "make": "BMW",
+    "model": "X5",
+    "miles": 83434,
+    "color": "Mauv",
+    "year": 2009
+  },
+  {
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "miles": 23242,
+    "color": "Yellow",
+    "year": 2012
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "400SEL",
+    "miles": 6426,
+    "color": "Violet",
+    "year": 1993
+  },
+  {
+    "make": "Ford",
+    "model": "E150",
+    "miles": 76962,
+    "color": "Puce",
+    "year": 2008
+  },
+  {
+    "make": "Ford",
+    "model": "Explorer",
+    "miles": 73607,
+    "color": "Goldenrod",
+    "year": 2003
+  },
+  {
+    "make": "GMC",
+    "model": "Sierra 1500",
+    "miles": 91058,
+    "color": "Puce",
+    "year": 2008
+  },
+  {
+    "make": "Pontiac",
+    "model": "GTO",
+    "miles": 64439,
+    "color": "Purple",
+    "year": 2006
+  },
+  {
+    "make": "Nissan",
+    "model": "Maxima",
+    "miles": 35178,
+    "color": "Khaki",
+    "year": 1994
+  },
+  {
+    "make": "Mazda",
+    "model": "MX-5",
+    "miles": 15861,
+    "color": "Fuscia",
+    "year": 2009
+  },
+  {
+    "make": "Porsche",
+    "model": "Boxster",
+    "miles": 75180,
+    "color": "Yellow",
+    "year": 2010
+  },
+  {
+    "make": "Lincoln",
+    "model": "Continental",
+    "miles": 5935,
+    "color": "Turquoise",
+    "year": 1984
+  },
+  {
+    "make": "Dodge",
+    "model": "Dakota",
+    "miles": 35855,
+    "color": "Violet",
+    "year": 1993
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "GL-Class",
+    "miles": 99752,
+    "color": "Blue",
+    "year": 2012
+  },
+  {
+    "make": "Mercury",
+    "model": "Sable",
+    "miles": 10102,
+    "color": "Fuscia",
+    "year": 1998
+  },
+  {
+    "make": "Kia",
+    "model": "Rio",
+    "miles": 24916,
+    "color": "Yellow",
+    "year": 2010
+  },
+  {
+    "make": "Acura",
+    "model": "CL",
+    "miles": 85840,
+    "color": "Khaki",
+    "year": 1998
+  },
+  {
+    "make": "Lincoln",
+    "model": "Continental",
+    "miles": 70208,
+    "color": "Maroon",
+    "year": 1991
+  },
+  {
+    "make": "Land Rover",
+    "model": "LR3",
+    "miles": 18120,
+    "color": "Violet",
+    "year": 2006
+  },
+  {
+    "make": "BMW",
+    "model": "M5",
+    "miles": 26556,
+    "color": "Khaki",
+    "year": 2008
+  },
+  {
+    "make": "Mercury",
+    "model": "Capri",
+    "miles": 98659,
+    "color": "Teal",
+    "year": 1994
+  },
+  {
+    "make": "Dodge",
+    "model": "Ram Van 1500",
+    "miles": 32218,
+    "color": "Teal",
+    "year": 1998
+  },
+  {
+    "make": "Toyota",
+    "model": "Matrix",
+    "miles": 43088,
+    "color": "Teal",
+    "year": 2009
+  },
+  {
+    "make": "Dodge",
+    "model": "Ram 1500 Club",
+    "miles": 99716,
+    "color": "Yellow",
+    "year": 1995
+  },
+  {
+    "make": "Volvo",
+    "model": "C70",
+    "miles": 38985,
+    "color": "Crimson",
+    "year": 2011
+  },
+  {
+    "make": "Acura",
+    "model": "RSX",
+    "miles": 69630,
+    "color": "Maroon",
+    "year": 2005
+  },
+  {
+    "make": "Buick",
+    "model": "Century",
+    "miles": 40272,
+    "color": "Turquoise",
+    "year": 1998
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "W201",
+    "miles": 47032,
+    "color": "Puce",
+    "year": 1992
+  },
+  {
+    "make": "Citroën",
+    "model": "CX",
+    "miles": 30081,
+    "color": "Fuscia",
+    "year": 1974
+  },
+  {
+    "make": "BMW",
+    "model": "745",
+    "miles": 25600,
+    "color": "Crimson",
+    "year": 2002
+  },
+  {
+    "make": "GMC",
+    "model": "Sonoma Club Coupe",
+    "miles": 99754,
+    "color": "Violet",
+    "year": 1994
+  },
+  {
+    "make": "Pontiac",
+    "model": "Sunfire",
+    "miles": 12339,
+    "color": "Aquamarine",
+    "year": 2001
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "SLK-Class",
+    "miles": 30617,
+    "color": "Green",
+    "year": 2000
+  },
+  {
+    "make": "Ford",
+    "model": "Tempo",
+    "miles": 21855,
+    "color": "Mauv",
+    "year": 1992
+  },
+  {
+    "make": "Toyota",
+    "model": "RAV4",
+    "miles": 45564,
+    "color": "Maroon",
+    "year": 1997
+  },
+  {
+    "make": "Toyota",
+    "model": "Tundra",
+    "miles": 90234,
+    "color": "Pink",
+    "year": 2012
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "miles": 80967,
+    "color": "Aquamarine",
+    "year": 2010
+  },
+  {
+    "make": "Volvo",
+    "model": "V70",
+    "miles": 19828,
+    "color": "Maroon",
+    "year": 2000
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "L300",
+    "miles": 20181,
+    "color": "Green",
+    "year": 1989
+  },
+  {
+    "make": "Dodge",
+    "model": "Ram 1500",
+    "miles": 72677,
+    "color": "Red",
+    "year": 2002
+  },
+  {
+    "make": "Mazda",
+    "model": "RX-7",
+    "miles": 14371,
+    "color": "Mauv",
+    "year": 1986
+  },
+  {
+    "make": "Mazda",
+    "model": "Tribute",
+    "miles": 64986,
+    "color": "Aquamarine",
+    "year": 2001
+  },
+  {
+    "make": "Pontiac",
+    "model": "Tempest",
+    "miles": 63353,
+    "color": "Purple",
+    "year": 1967
+  },
+  {
+    "make": "Dodge",
+    "model": "Ram 50",
+    "miles": 71792,
+    "color": "Violet",
+    "year": 1992
+  },
+  {
+    "make": "Isuzu",
+    "model": "Rodeo",
+    "miles": 35562,
+    "color": "Violet",
+    "year": 1992
+  },
+  {
+    "make": "Buick",
+    "model": "Park Avenue",
+    "miles": 54136,
+    "color": "Fuscia",
+    "year": 2000
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Vanagon",
+    "miles": 47235,
+    "color": "Aquamarine",
+    "year": 1984
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Uplander",
+    "miles": 8173,
+    "color": "Teal",
+    "year": 2006
+  },
+  {
+    "make": "BMW",
+    "model": "525",
+    "miles": 31270,
+    "color": "Puce",
+    "year": 2005
+  },
+  {
+    "make": "Jaguar",
+    "model": "XK",
+    "miles": 59807,
+    "color": "Mauv",
+    "year": 2008
+  },
+  {
+    "make": "Kia",
+    "model": "Carens",
+    "miles": 9869,
+    "color": "Yellow",
+    "year": 2009
+  },
+  {
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "miles": 96678,
+    "color": "Teal",
+    "year": 2004
+  },
+  {
+    "make": "Pontiac",
+    "model": "Safari",
+    "miles": 47640,
+    "color": "Teal",
+    "year": 1987
+  },
+  {
+    "make": "Infiniti",
+    "model": "M",
+    "miles": 8996,
+    "color": "Indigo",
+    "year": 2010
+  },
+  {
+    "make": "Audi",
+    "model": "A6",
+    "miles": 65678,
+    "color": "Crimson",
+    "year": 2008
+  },
+  {
+    "make": "Mazda",
+    "model": "626",
+    "miles": 51777,
+    "color": "Purple",
+    "year": 1995
+  },
+  {
+    "make": "Ford",
+    "model": "Crown Victoria",
+    "miles": 9377,
+    "color": "Fuscia",
+    "year": 2000
+  },
+  {
+    "make": "Mercury",
+    "model": "Villager",
+    "miles": 31653,
+    "color": "Maroon",
+    "year": 2002
+  },
+  {
+    "make": "Cadillac",
+    "model": "Fleetwood",
+    "miles": 27170,
+    "color": "Teal",
+    "year": 1996
+  },
+  {
+    "make": "Honda",
+    "model": "S2000",
+    "miles": 78795,
+    "color": "Aquamarine",
+    "year": 2007
+  },
+  {
+    "make": "Toyota",
+    "model": "Tacoma Xtra",
+    "miles": 10565,
+    "color": "Teal",
+    "year": 1995
+  },
+  {
+    "make": "GMC",
+    "model": "Savana 2500",
+    "miles": 30143,
+    "color": "Maroon",
+    "year": 1999
+  },
+  {
+    "make": "Toyota",
+    "model": "Echo",
+    "miles": 64930,
+    "color": "Crimson",
+    "year": 2002
+  },
+  {
+    "make": "Ford",
+    "model": "Explorer",
+    "miles": 19444,
+    "color": "Red",
+    "year": 1992
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Venture",
+    "miles": 37033,
+    "color": "Crimson",
+    "year": 2004
+  },
+  {
+    "make": "Acura",
+    "model": "MDX",
+    "miles": 82702,
+    "color": "Aquamarine",
+    "year": 2007
+  },
+  {
+    "make": "Honda",
+    "model": "Passport",
+    "miles": 99555,
+    "color": "Green",
+    "year": 1997
+  },
+  {
+    "make": "Dodge",
+    "model": "Durango",
+    "miles": 15335,
+    "color": "Khaki",
+    "year": 2011
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "miles": 82829,
+    "color": "Purple",
+    "year": 2002
+  },
+  {
+    "make": "Honda",
+    "model": "Pilot",
+    "miles": 43143,
+    "color": "Blue",
+    "year": 2005
+  },
+  {
+    "make": "Ford",
+    "model": "F350",
+    "miles": 98494,
+    "color": "Violet",
+    "year": 1994
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Caprice",
+    "miles": 12398,
+    "color": "Yellow",
+    "year": 1991
+  },
+  {
+    "make": "Kia",
+    "model": "Spectra",
+    "miles": 60804,
+    "color": "Mauv",
+    "year": 2003
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "3000GT",
+    "miles": 81559,
+    "color": "Indigo",
+    "year": 1999
+  },
+  {
+    "make": "Toyota",
+    "model": "Tacoma",
+    "miles": 62847,
+    "color": "Teal",
+    "year": 2010
+  },
+  {
+    "make": "Daewoo",
+    "model": "Nubira",
+    "miles": 85543,
+    "color": "Teal",
+    "year": 1999
+  },
+  {
+    "make": "Buick",
+    "model": "Park Avenue",
+    "miles": 37418,
+    "color": "Indigo",
+    "year": 2001
+  },
+  {
+    "make": "Aston Martin",
+    "model": "DBS",
+    "miles": 49999,
+    "color": "Pink",
+    "year": 2010
+  },
+  {
+    "make": "BMW",
+    "model": "6 Series",
+    "miles": 35823,
+    "color": "Aquamarine",
+    "year": 2008
+  },
+  {
+    "make": "GMC",
+    "model": "Sonoma Club Coupe",
+    "miles": 47422,
+    "color": "Pink",
+    "year": 1995
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Pajero",
+    "miles": 94270,
+    "color": "Orange",
+    "year": 1986
+  },
+  {
+    "make": "Mazda",
+    "model": "Mazda3",
+    "miles": 79884,
+    "color": "Mauv",
+    "year": 2009
+  },
+  {
+    "make": "Audi",
+    "model": "Quattro",
+    "miles": 64786,
+    "color": "Purple",
+    "year": 1993
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Fox",
+    "miles": 94971,
+    "color": "Goldenrod",
+    "year": 1989
+  }
+]

@@ -1,6 +1,8 @@
 DROP TABLE IF EXISTS user_history;
 DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS roles;
+DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS cars;
 
 CREATE TABLE roles(
   id serial primary key,
@@ -19,6 +21,22 @@ CREATE TABLE user_history(
   users_id int references users(id),
   request text,
   time timestamp default now()
+);
+
+CREATE TABLE movies(
+  id serial primary key,
+  title varchar(250),
+  rating int,
+  year int
+);
+
+CREATE TABLE cars(
+  id serial primary key,
+  make varchar(100),
+  model varchar(100),
+  miles int,
+  color varchar(20),
+  year int
 );
 
 INSERT INTO roles (name)
