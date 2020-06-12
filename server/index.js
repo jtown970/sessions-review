@@ -8,11 +8,11 @@ const authCtrl = require('./controllers/authController')
 app.use(express.json())
 
 //TODO Set up session
+//TODO - Modify auth functions to use session
 //TODO Build useful middleware
 //TODO - Auth middleware
 //TODO - User specific information
 //TODO - User tracking
-//TODO -
 
 //* Auth endpoints
 app.post('/auth/login', authCtrl.login)
