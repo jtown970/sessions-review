@@ -18,9 +18,10 @@ CREATE TABLE users (
 
 CREATE TABLE user_history(
   id serial primary key,
-  users_id int references users(id),
+  user_id int references users(id),
   request text,
-  time timestamp default now()
+  time timestamp default now(),
+  authorized boolean
 );
 
 CREATE TABLE movies(

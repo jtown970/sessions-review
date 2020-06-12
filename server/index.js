@@ -5,6 +5,8 @@ const massive = require('massive')
 const { SERVER_PORT, CONNECTION_STRING } = process.env
 const setup = require('./controllers/setup')
 const authCtrl = require('./controllers/authController')
+const carCtrl = require('./controllers/carController')
+const movieCtrl = require('./controllers/moviesController')
 
 app.use(express.json())
 
@@ -14,6 +16,19 @@ app.use(express.json())
 //TODO - Auth middleware
 //TODO - User specific information
 //TODO - User tracking
+
+//* Movie Endpoints
+app.get('/api/movies', movieCtrl.getAllMovies)
+app.get('/api/movies/:id', movieCtrl.getMovieById)
+app.post('/api/movies', movieCtrl.addMovie)
+app.delete('/api/movies/:id', movieCtrl.deleteMovie)
+
+//* Car endpoints
+
+app.get('/api/cars', carCtrl.getAllCars)
+app.get('/api/cars/:id', carCtrl.getCarById)
+app.post('/api/cars', carCtrl.addCar)
+app.delete('/api/cars/:id', carCtrl.deleteCar)
 
 //* Auth endpoints
 app.post('/auth/login', authCtrl.login)
