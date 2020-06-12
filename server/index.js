@@ -5,6 +5,8 @@ const massive = require('massive')
 const { SERVER_PORT, CONNECTION_STRING } = process.env
 const authCtrl = require('./controllers/authController')
 
+app.use(express.json())
+
 //TODO Set up session
 //TODO Build useful middleware
 //TODO - Auth middleware
@@ -12,6 +14,12 @@ const authCtrl = require('./controllers/authController')
 //TODO - User tracking
 //TODO -
 
+//* Auth endpoints
+app.post('/auth/login', authCtrl.login)
+app.post('/auth/register', authCtrl.register)
+app.delete('/auth/logout', authCtrl.logout)
+
+//! Seeding endpoint.  Keep at bottom.
 app.post('/api', authCtrl.seed)
 
 massive({
