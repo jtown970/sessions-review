@@ -2,18 +2,18 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const massive = require('massive')
-const { SERVER_PORT, CONNECTION_STRING } = process.env
 const setup = require('./controllers/setup')
 const authCtrl = require('./controllers/authController')
 const carCtrl = require('./controllers/carController')
 const movieCtrl = require('./controllers/moviesController')
+const { SERVER_PORT, CONNECTION_STRING } = process.env
 
 app.use(express.json())
 
 /**
  * ! MASSIVE AND QUERIES TODOS
- * TODO: Set up heroku db/.env
- * TODO: Set up massive connection
+ * //TODO: Set up heroku db/.env
+ * //TODO: Set up massive connection
  * TODO: Build controllers
  * TODO: - Cars controller(db folder/object syntax)
  * TODO: - Movies controller(inline)
@@ -53,4 +53,13 @@ app.delete('/auth/logout', authCtrl.logout)
 //! Seeding endpoint.  Keep at bottom.
 app.post('/api', setup.seed)
 
-app.listen(SERVER_PORT, () => console.log(`Get it on port ${SERVER_PORT}`))
+//massive should be put at the bottom
+massive({
+  connectionString: CONNECTION_STRING,
+  ssl: {rejectUnauthorized: false}
+}).then(db => {
+  app.set('db', db)
+  console.log('db connected')
+  app.listen(SERVER_PORT, () => console.log(`Get it on port ${SERVER_PORT}`))
+}).catch(err => console.log('could not connect to db',err))
+
