@@ -38,11 +38,4 @@ app.delete('/auth/logout', authCtrl.logout)
 //! Seeding endpoint.  Keep at bottom.
 app.post('/api', setup.seed)
 
-massive({
-  connectionString: CONNECTION_STRING,
-  ssl: { rejectUnauthorized: false },
-}).then((db) => {
-  app.set('db', db)
-  console.log('DB checking in')
-  app.listen(SERVER_PORT, () => console.log(`Get it on port ${SERVER_PORT}`))
-})
+app.listen(SERVER_PORT, () => console.log(`Get it on port ${SERVER_PORT}`))
