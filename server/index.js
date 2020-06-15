@@ -7,6 +7,7 @@ const setup = require('./controllers/setup')
 const authCtrl = require('./controllers/authController')
 const carCtrl = require('./controllers/carController')
 const movieCtrl = require('./controllers/moviesController')
+
 const { SERVER_PORT, SESSION_SECRET, CONNECTION_STRING } = process.env
 
 app.use(express.json())
