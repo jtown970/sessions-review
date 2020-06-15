@@ -1,14 +1,23 @@
 require('dotenv').config()
 const express = require('express')
+const session = require('express-session')
 const app = express()
 const massive = require('massive')
 const setup = require('./controllers/setup')
 const authCtrl = require('./controllers/authController')
 const carCtrl = require('./controllers/carController')
 const movieCtrl = require('./controllers/moviesController')
-const { SERVER_PORT, CONNECTION_STRING } = process.env
+const { SERVER_PORT, SESSION_SECRET, CONNECTION_STRING } = process.env
 
 app.use(express.json())
+app.use(
+  session({
+    resave: false, // restart session even when I don't ask it to
+    saveUninitialized: true, //keep track of all users
+    secret: SESSION_SECRET,
+    cookie: {maxAge: 1000 * 60 * 60 * 24 * 31}, //good for one month
+  })
+)
 
 /**
  * ! MASSIVE AND QUERIES TODOS
@@ -24,7 +33,7 @@ app.use(express.json())
 
 /**
  * ! SESSION & MIDDLEWARE TODOS
- * TODO: Set up session
+ * //TODO: Set up session
  * TODO: - Modify auth functions to use session
  * TODO: Build useful middleware
  * TODO: - Auth middleware
