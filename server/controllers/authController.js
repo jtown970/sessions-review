@@ -5,8 +5,6 @@ module.exports = {
     const { email, password, role_id } = req.body
     const db = req.app.get('db')
 
-    // db.get_user_by_email(email).then(user =>......)
-
     //Check if user already exists
     const existingUser = await db.get_user_by_email(email)
 
@@ -15,7 +13,6 @@ module.exports = {
     }
 
     //If they do not exist we can carry on
-
     const salt = bcrypt.genSaltSync(10)
 
     const hash = bcrypt.hashSync(password, salt)
@@ -26,6 +23,7 @@ module.exports = {
     //Send back new user
     res.status(200).send(newUser)
   },
+
   login: async (req, res) => {
     const { email, password } = req.body
     const db = req.app.get('db')

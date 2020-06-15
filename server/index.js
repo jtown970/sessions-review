@@ -10,12 +10,27 @@ const movieCtrl = require('./controllers/moviesController')
 
 app.use(express.json())
 
-//TODO Set up session
-//TODO - Modify auth functions to use session
-//TODO Build useful middleware
-//TODO - Auth middleware
-//TODO - User specific information
-//TODO - User tracking
+/**
+ * ! MASSIVE AND QUERIES TODOS
+ * TODO: Set up heroku db/.env
+ * TODO: Set up massive connection
+ * TODO: Build controllers
+ * TODO: - Cars controller(db folder/object syntax)
+ * TODO: - Movies controller(inline)
+ * TODO: Set up queries
+ * TODO: - Filter cars by make, model, year, color
+ * TODO: - Filter movies by year, rating
+ */
+
+/**
+ * ! SESSION & MIDDLEWARE TODOS
+ * TODO: Set up session
+ * TODO: - Modify auth functions to use session
+ * TODO: Build useful middleware
+ * TODO: - Auth middleware
+ * TODO: - User specific information
+ * TODO: - User tracking
+ */
 
 //* Movie Endpoints
 app.get('/api/movies', movieCtrl.getAllMovies)
